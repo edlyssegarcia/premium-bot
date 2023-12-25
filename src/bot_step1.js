@@ -1,3 +1,4 @@
+
 const eris = require('eris');
 const { BOT_TOKEN } = require('../config.json');
 
@@ -35,4 +36,3 @@ bot.on('error', err => {
   console.warn(err);
 });
 
-bot.connect();
